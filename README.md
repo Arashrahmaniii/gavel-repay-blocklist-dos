@@ -42,7 +42,7 @@ Expected: `4 tests passed, 0 failed`. Each test runs a control first (repayment 
 
 ## Disclosure
 
-Reported privately to `security@thegavel.io` on 2026-10-07. The team reproduced the issue on both contracts, confirmed it as Medium on 2026-10-08, and published KI-3. This repository was published after KI-3, as agreed with the team.
+Reported privately to `security@thegavel.io` on 2026-10-07. The team reproduced the issue on both contracts and confirmed it as Medium on 2026-10-08. They published KI-3 on 2026-10-10, cleared public disclosure the same day, and added a pre-signing USDC repayment check to the interface. This repository was published after that.
 
 Gavel has no bug bounty program. Nothing here was tested against live state; all testing ran on a local fork.
 

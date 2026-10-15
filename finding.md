@@ -104,8 +104,9 @@ Triage corrected parts of my report, and I'm recording that here because it matt
 | Date | Event |
 |---|---|
 | 2026-10-07 | Reviewed the deployed v1 and reported to `security@thegavel.io` with the fork PoC |
-| 2026-10-08 | The team reproduced it on both contracts and confirmed it valid, Medium; KI-3 published |
-| 2026-10-09 / 10 | Credit added to KI-3 |
+| 2026-10-08 | The team reproduced it on both contracts and on an Arbitrum fork, and confirmed it valid, Medium |
+| 2026-10-09 | The team shared the KI-3 text for review; no corrections requested |
+| 2026-10-10 | KI-3 published with credit; public disclosure cleared. The same release added the team's reproduction tests (`test/security/SR2_RepaymentBlocklist.t.sol`), and the interface now checks a USDC repayment before the borrower signs |
 | 2026-10-15 | This write-up published |
 
 Thanks to Jamie Frame and the Gavel team for a fast, careful triage and an unusually transparent known-issues page.
