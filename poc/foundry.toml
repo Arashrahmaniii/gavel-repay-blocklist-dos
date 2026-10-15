@@ -1,0 +1,11 @@
+[profile.default]
+src = "test"
+test = "test"
+out = "out"
+libs = ["lib"]
+remappings = ["forge-std/=lib/forge-std/src/"]
+solc = "0.8.24"
+evm_version = "cancun"
+
+[rpc_endpoints]
+arbitrum = "${ARB_RPC_URL}"
